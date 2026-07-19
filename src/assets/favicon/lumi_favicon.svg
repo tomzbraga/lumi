@@ -1,0 +1,15 @@
+<svg width="100%" viewBox="0 0 210 210" xmlns="http://www.w3.org/2000/svg" role="img" style=""><title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Favicon Lumi</title><desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Ícone quadrado com fundo índigo escuro arredondado contendo apenas o símbolo da lua crescente em gradiente índigo-violeta, para uso como favicon.</desc>
+<defs>
+<linearGradient id="moonGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#8b7cf6"/>
+<stop offset="100%" stop-color="#4c3fb0"/>
+</linearGradient>
+<mask id="moonMask4">
+<rect x="0" y="0" width="200" height="200" fill="black"/>
+<circle cx="100" cy="100" r="62" fill="white"/>
+<circle cx="128" cy="76" r="50" fill="black"/>
+</mask>
+</defs>
+<rect x="0" y="0" width="200" height="200" rx="40" fill="#0d0a1a" style="fill:rgb(13, 10, 26);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<circle cx="100" cy="100" r="62" fill="url(#moonGrad4)" mask="url(#moonMask4)" style="stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+</svg>
