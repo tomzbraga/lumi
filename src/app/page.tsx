@@ -4,8 +4,10 @@ import TopBar from "@/components/TopBar";
 import Main from "@/components/Main";
 import { useState } from "react";
 
+export type Tab = "tasks" | "pomodoro" | "files";
+
 export default function Home() {
-  const [tab, setTab] = useState();
+  const [tab, setTab] = useState<Tab>("tasks");
 
   return (
     <>
@@ -13,7 +15,7 @@ export default function Home() {
         <TopBar onTabChange={setTab} />
       </section>
       <main>
-        <Main />
+        <Main tab={tab} />
       </main>
     </>
   );
