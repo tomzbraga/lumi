@@ -1,0 +1,25 @@
+<svg width="100%" viewBox="0 0 500 180" xmlns="http://www.w3.org/2000/svg" role="img" style=""><title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Logo Lumi compacta com brilho suave</title><desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Marca compacta com lua crescente em gradiente violeta mais claro, leve brilho ao redor, três pequenos pontos de luz, e o wordmark "Lumi", sem tagline.</desc>
+<defs>
+<linearGradient id="moonGradC" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#a894fa"/>
+<stop offset="100%" stop-color="#6a5bd4"/>
+</linearGradient>
+<mask id="moonMaskC">
+<rect x="0" y="0" width="500" height="180" fill="black"/>
+<circle cx="90" cy="90" r="52" fill="white"/>
+<circle cx="114" cy="72" r="42" fill="black"/>
+</mask>
+<filter id="glowC" x="-60%" y="-60%" width="220%" height="220%">
+<feGaussianBlur stdDeviation="8" result="blur"/>
+<feMerge>
+<feMergeNode in="blur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+</defs>
+<circle cx="90" cy="90" r="52" fill="#8b7cf6" opacity="0.35" filter="url(#glowC)" style="fill:rgb(139, 124, 246);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.35;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<circle cx="90" cy="90" r="52" fill="url(#moonGradC)" mask="url(#moonMaskC)" style="stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<circle cx="150" cy="48" r="4" fill="#c9bffb" style="fill:rgb(201, 191, 251);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<circle cx="163" cy="75" r="2.5" fill="#a894fa" style="fill:rgb(168, 148, 250);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<text x="180" y="108" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="500" fill="#f2f0fa" style="fill:rgb(242, 240, 250);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, Helvetica, sans-serif;font-size:46px;font-weight:500;text-anchor:start;dominant-baseline:auto">Lumi</text>
+</svg>

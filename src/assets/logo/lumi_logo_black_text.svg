@@ -1,0 +1,19 @@
+<svg width="100%" viewBox="0 0 680 220" xmlns="http://www.w3.org/2000/svg" role="img" style=""><title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Logo Lumi com texto preto</title><desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Marca com lua crescente em gradiente índigo-violeta original, três pequenos pontos de luz, e o wordmark "Lumi" em texto preto com a tagline "organize. respire. recomece."</desc>
+<defs>
+<linearGradient id="moonGradOrig" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#8b7cf6"/>
+<stop offset="100%" stop-color="#4c3fb0"/>
+</linearGradient>
+<mask id="moonMaskOrig">
+<rect x="0" y="0" width="680" height="220" fill="black"/>
+<circle cx="120" cy="110" r="66" fill="white"/>
+<circle cx="150" cy="88" r="54" fill="black"/>
+</mask>
+</defs>
+<circle cx="120" cy="110" r="66" fill="url(#moonGradOrig)" mask="url(#moonMaskOrig)" style="stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<circle cx="196" cy="60" r="5" fill="#a99ef2" style="fill:rgb(169, 158, 242);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<circle cx="212" cy="95" r="3" fill="#8b7cf6" style="fill:rgb(139, 124, 246);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<circle cx="182" cy="150" r="3.5" fill="#a99ef2" style="fill:rgb(169, 158, 242);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<text x="238" y="128" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="500" fill="#000000" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, Helvetica, sans-serif;font-size:58px;font-weight:500;text-anchor:start;dominant-baseline:auto">Lumi</text>
+<text x="240" y="158" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#000000" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, Helvetica, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">organize. respire. recomece.</text>
+</svg>
