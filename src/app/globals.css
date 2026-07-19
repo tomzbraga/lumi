@@ -3,7 +3,7 @@
 :root {
   /* Cor sólida base (fallback e uso geral) */
   --background: #0d0a1a;
-  --foreground: #e4e0f0;
+  --foreground: #0d0a1a;
 
   /* Gradiente suave, sem pontos de luz — só transição de tom */
   --background-gradient: linear-gradient(
@@ -12,17 +12,6 @@
     #0a0716 55%,
     #060410 100%
   );
-
-  --primary: #6d5ae8;
-  --primary-hover: #5b47d6;
-  --border: #2a2444;
-  --muted: #9089b0;
-
-  --spacing-xs: 0.25rem;
-  --spacing-sm: 0.5rem;
-  --spacing-md: 1rem;
-  --spacing-lg: 1.5rem;
-  --spacing-xl: 2rem;
 }
 
 @theme inline {
