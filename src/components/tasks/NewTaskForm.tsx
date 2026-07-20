@@ -11,7 +11,7 @@ export interface NewTaskData {
   name: string;
   description: string;
   deadLine: string;
-  file: File[];
+  files: File[];
 }
 
 export default function NewTaskForm({ onSubmit, onClose }: NewTaskFormProps) {
@@ -22,7 +22,7 @@ export default function NewTaskForm({ onSubmit, onClose }: NewTaskFormProps) {
 
   function handleSubmit(e: SubmitEvent<HTMLFormElement>) {
     e.preventDefault();
-    onSubmit({ name, description, deadLine, file });
+    onSubmit({ name, description, deadLine, files });
   }
 
   return (
@@ -84,6 +84,7 @@ export default function NewTaskForm({ onSubmit, onClose }: NewTaskFormProps) {
           />
         </label>
       </FormField>
+      <button type="submit">salvar</button>
     </form>
   );
 }
