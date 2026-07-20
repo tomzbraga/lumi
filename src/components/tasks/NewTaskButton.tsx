@@ -1,5 +1,4 @@
 import { Plus, Pencil } from "lucide-react";
-import { modal } from "./Tasks";
 
 interface NewTaskButtonProps {
   onClick?: () => void;
