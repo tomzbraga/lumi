@@ -1,4 +1,7 @@
 import { Tab } from "@/app/page";
+import Tasks from "./tasks/Tasks";
+import Pomodoro from "./pomodoro/Pomodoro";
+import Files from "./files/Files";
 
 interface MainProps {
   tab: Tab;
@@ -7,23 +10,11 @@ interface MainProps {
 export default function Main({ tab }: MainProps) {
   {
     if (tab == "tasks") {
-      return (
-        <section>
-          <h1 className="text-white">Tarefas</h1>
-        </section>
-      );
+      return <Tasks />;
     } else if (tab == "pomodoro") {
-      return (
-        <section>
-          <h1 className="text-white">Pomodoro</h1>
-        </section>
-      );
+      return <Pomodoro />;
     } else if (tab == "files") {
-      return (
-        <section>
-          <h1 className="text-white">files</h1>
-        </section>
-      );
+      return <Files />;
     } else return <h1>Não encontrada</h1>;
   }
 }
