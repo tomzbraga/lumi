@@ -14,8 +14,10 @@ export default function Modal({ onClose }: ModalProps) {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
-      <div className="relative rounded-xl bg-white p-6 shadow-lg">
-        <CloseButton onClick={onClose} />
+      <div className="relative w-full max-w-lg rounded-xl bg-white p-6 pt-12 shadow-lg">
+        <div className="absolute right-4 top-4">
+          <CloseButton onClick={onClose} />
+        </div>
         <NewTaskForm onClose={onClose} onSubmit={handleCreateTask} />
       </div>
     </div>

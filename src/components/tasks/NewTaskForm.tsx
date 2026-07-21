@@ -26,16 +26,14 @@ export default function NewTaskForm({ onSubmit, onClose }: NewTaskFormProps) {
   }
 
   return (
-    <form
-      onSubmit={handleSubmit}
-      className="flex w-full max-w-md flex-col gap-4"
-    >
+    <form onSubmit={handleSubmit} className="flex w-full flex-col gap-4">
       <h1 className="text-lg font-semibold text-indigo-950">Nova Tarefa</h1>
       <FormField label="Nome da tarefa" id="name">
         <input
           id="name"
           value={name}
           onChange={(e) => setName(e.target.value)}
+          required
           className="rounded-lg border border-gray-300 px-3 py-2 text-sm"
         />
       </FormField>
@@ -47,14 +45,13 @@ export default function NewTaskForm({ onSubmit, onClose }: NewTaskFormProps) {
           className="rounded-lg border border-gray-300 px-3 py-2 text-sm"
         />
       </FormField>
-      <FormField label="Prazo" id="description">
+      <FormField label="Prazo" id="deadLine">
         <input
           id="deadLine"
           type="date"
           value={deadLine}
           onChange={(e) => setDeadLine(e.target.value)}
-          className="rounded-lg border border-gray-300 px-3 py-2 text-sm
-                     focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-400/30"
+          className="rounded-lg border border-gray-300 px-3 py-2 text-sm"
         />
       </FormField>
       {files.length > 0 && (
@@ -84,7 +81,16 @@ export default function NewTaskForm({ onSubmit, onClose }: NewTaskFormProps) {
           />
         </label>
       </FormField>
-      <button type="submit">salvar</button>
+      <div className="mt-2 flex justify-center gap-2">
+        <button
+          type="submit"
+          className="rounded-lg bg-indigo-500 px-12 py-2 text-sm font-medium text-white
+               transition-colors hover:bg-indigo-600
+               focus:outline-none focus:ring-2 focus:ring-indigo-400/50"
+        >
+          Criar tarefa
+        </button>
+      </div>
     </form>
   );
 }
